@@ -1,11 +1,4 @@
-const express = require('express');
 const { handleGetLocation, handleGetTemperature } = require('../lib/helper');
-
-const app = express()
-
-app.enable('trust proxy', true)
-
-
 
 
 const getUser = async (req, res) => {
