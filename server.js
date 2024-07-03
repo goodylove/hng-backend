@@ -10,7 +10,7 @@ app.set('trust proxy', true);
 app.use("/api", routes)
 
 
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3000
 
 app.listen(port, () => {
     console.log("listening on port " + port);
